@@ -1,0 +1,322 @@
+{
+  "version": "1.0",
+  "producer": {
+    "producerId": "HPLU",
+    "name": "HPLUS",
+    "title": "HPLUS: Network of hydrogeological research sites",
+    "description": "  The H+ network is the French long-term observation system for hydrogeological research. It is an elementary component of the CNRS observation infrastructure, which guarantees the quality of data and the long term monitoring.  H+ was created in 2002 to provide field data for testing modelling hypothesis for hydrogeological processes and their relation with other compartments of natural systems. This network is dedicated to the exploration and modelling of subsurface heterogeneity, fluxes and biogeochemical reactions.  The H+ sites provide field data and develop innovative experimental approaches to understand and quantify the role of subsurface heterogeneity in driving flow, transport, reaction and hydromechanical processes. ",
+    "email": "hplus-contact@univ-rennes1.fr",
+    "objectives": " i) The production of monitoring and experimental data on subsurface structures and processes from highly instrumented sites. The main scientific questions are : the impact of heterogeneity on flow, transport and reaction processes, the development of hydrogeophysical methods and the interactions and feedbacks between subsurface and surface systems. To address those questions, many links were developed with other communities, such as geochemists, hydrologists, microbiologists and geomorphologists.  ii) The coupling between measurements, theories and models to create a long term relation between research teams interested in theoretical, numerical, and experimental aspects of flow and transport in heterogeneous media.  iii) The hosting of international teams developing novel subsurface monitoring and imaging techniques. Interactions with the catchment networks (RBV), have led to the creation of the CRITEX equipment project in 2012 and the OZCAR critical zone research infrastructure in 2017. H+ coordinates the ITN project ENIGMA (European training Network for in situ imaGing of dynaMic processes in heterogeneous subsurfAce environments) iv) The maintaining of a partnership between basic research, university/continuous training, and professional expertise (consulting agencies, water management services). The H+ sites accommodate students and professionals for traineeships on the exploitation of water resources and the prevention of environmental risks.",
+    "measuredVariables": " atmosphere monitoring, geochemistry, geological characterization, geophysical imagery, hydrogeological experimentation, hydrogeological monitoring, microbiology, meteorology, soil monitoring.",
+    "fundings": [
+      {
+        "type": "French research institutes",
+        "acronym": "CNRS",
+        "name": "French National Centre for Scientific Centre National de la Recherche Scientifique",
+        "idScanR": "180089013",
+        "iso3166": "fr"
+      },
+      {
+        "type": "French research institutes",
+        "acronym": "BRGM",
+        "name": "Bureau de Recherches geologiques et minieres",
+        "idScanR": "195922846R",
+        "iso3166": "fr"
+      }
+    ],
+    "contacts": [
+      {
+        "firstName": "Olivier",
+        "lastName": "Bour",
+        "email": "olivier.bour@univ-rennes1.fr",
+        "role": "Project leader",
+        "orcId": "0000-0001-8143-0990",
+        "organisation": {
+          "name": "Observatoire de Recherche Méditerranéen de l'Environnement",
+          "acronym": "OSU OREME",
+          "role": "Research group",
+          "iso3166": "fr",
+          "idScanR": "200919527R"
+        }
+      },
+      {
+        "firstName": "Annick",
+        "lastName": "Battais",
+        "email": "annick.battais@univ-rennes1.fr",
+        "role": "Data manager",
+        "orcId": "0000-0003-2762-3593"
+      },
+      {
+        "firstName": "Laurent",
+        "lastName": "Longuevergne",
+        "email": "laurent.longuevergne@univ-rennes1.fr",
+        "role": "Project leader",
+        "orcId": "0000-0003-3169-743X"
+      }
+    ],
+    "onlineResource": {
+      "urlDownload": "http://hplus.ore.fr/en/database/acces_database",
+      "urlInfo": "http://hplus.ore.fr/en",
+      "webservices": [
+        {
+          "description": "CSW",
+          "url": "https://www.osuris.fr/geonetwork/srv/eng/catalog.search#/metadata/c5e460ed-e927-41dc-804a-9604a0b45f34"
+        },
+        {
+          "description": "WMS",
+          "url": "https://www.osuris.fr/geoserver/hplus/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+        }
+      ],
+      "doi": "10.15148/5d4514e2-61fe-46c4-aa72-316be44fd3ae"
+    }
+  },
+  "datasets": [
+    {
+      "datasetId": "HPLU_DAT_ploemeur_chemistry",
+      "metadata": {
+        "title": "Water chemistry dataset on Ploemeur (France) starting from 1991",
+        "description": "Chemical composition of the water (anions, cations) in wells. Groundwater age estimated from environmental tracers",
+        "objective": "The objective is to study the coupling between the site's hydrochemistry ant its hydrogeological circulation patterns, in particular for investigating the reactivity and vulnerability of the site",
+        "datasetLineage": "Data acquired during H+ programm. The dataset is created from H+ database and broadcasted to Theia/OZCAR information system.",
+        "contacts": [
+          {
+            "firstName": "Laurent",
+            "lastName": "Longuevergne",
+            "email": "laurent.longuevergne@univ-rennes1.fr",
+            "role": "Project leader",
+            "orcId": "0000-0003-3169-743X"
+          },
+          {
+            "firstName": "Olivier",
+            "lastName": "Bour",
+            "email": "olivier.bour@univ-rennes1.fr",
+            "role": "Principal investigator",
+            "orcId": "0000-0001-8143-0990",
+            "organisation": {
+              "name": "Observatoire de Recherche Méditerranéen de l'Environnement",
+              "acronym": "OSU OREME",
+              "role": "Research group",
+              "iso3166": "fr",
+              "idScanR": "200919527R"
+            }
+          }
+        ],
+        "topicCategories": [
+          "Environment",
+          "Geoscientific Information"
+        ],
+        "inspireTheme": "Environmental monitoring facilities",
+        "keywords": [
+          {
+            "keyword": "biogeochemistry"
+          },
+          {
+            "keyword": "genetics"
+          }
+        ],
+        "documents": [
+          {
+            "type": "Manual",
+            "url": "http://hplus.ore.fr/documents/metadata/chromatographie_ionique.doc"
+          },
+          {
+            "type": "Publication",
+            "url": "http://dx.doi.org/10.5194/hess-18-893-2014"
+          }
+        ],
+        "onlineResource": {
+          "urlDownload": "http://hplus.ore.fr/documents/requests/ploemeur/Ploemeur_chemistry_oz.tgz",
+          "urlInfo": "http://hplus.ore.fr/en/ploemeur/data-ploemeur",
+          "doi": "10.15148/5d4514e2-61fe-46c4-aa72-316be44fd3ae",
+        },
+        "dataConstraint": {
+          "accessUseConstraint": "\"Access and use of H+ data policy are subject to H+ data policy, please see the agreements on H+ web site\"",
+          "urlDataPolicy": "http://hplus.ore.fr/public/Terms_and_agreements_Hplus_README_en.pdf",
+          "licence": {
+            "title": "CC BY-NC-SA International 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+          },
+          "embargo": {
+            "duration": 365,
+            "priviledgedUsers": [
+              "guillaume.masselis@ird.fr",
+              "jl.maeght@gmail.com"
+            ]
+          }
+        },
+        "portalSearchCriteria": {
+          "climates": [
+            "Oceanic climate"
+          ],
+          "geologies": [
+            "Plutonic rocks",
+            "Metamorphic rocks"
+          ]
+        },
+        "spatialExtent": {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -3.435,
+                  47.76167
+                ],
+                [
+                  -3.435,
+                  47.746111
+                ],
+                [
+                  -3.426208,
+                  47.746111
+                ],
+                [
+                  -3.426208,
+                  47.76167
+                ],
+                [
+                  -3.435,
+                  47.76167
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {},
+          "type": "Feature"
+        }
+      },
+      "observations": [
+        {
+          "observationId": "HPLU_OBS_ploemeur_chemistry_1",
+          "processingLevel": "Quality-controlled data",
+          "featureOfInterest": {
+            "samplingFeature": {
+              "geometry": {
+                "coordinates": [
+                  -3.446548,
+                  47.745563,
+                  29.18
+                ],
+                "type": "Point"
+              },
+              "name": "f24",
+              "type": "Feature",
+              "properties": {}
+            }
+          },
+          "observedProperty": {
+            "name": "chloride",
+            "unit": "mg/l",
+            "description": "Turbidity at Lods station - Raw data\nSample fraction: BULK",
+            "theiaCategories": [
+              "https://w3id.org/ozcar-theia/groundwaterMajorIons"
+            ],
+            "gcmdKeywords": [
+              {
+                "category": "EARTH SCIENCE",
+                "topic": "LAND SURFACE",
+                "term": "EROSION/SEDIMENTATION",
+                "variableLevel1": "SUSPENDED SOLIDS"
+              }
+            ],
+            "keywords": [
+              {
+                "keyword": "chloride",
+                "uri": "http://vocabs.lter-europe.net/EnvThes/20820"
+              },
+              {
+                "keyword": "chloride"
+              }
+            ]
+          },
+          "procedure": {
+            "lineageInformations": [
+              {
+                "processingDescription": "The water table depth (WTD) is calculating according to the following equation: WTD=a*H_raw_clean+b where H_raw_clean is the water level measurement by the probe without the aberrant values, a=1 and b=-0.451. The data are integrated at half-hour frequency up to 04/17/2018, then 15 minutes frequency up to 05/31/2018 and then half-hour frequency.",
+                "processingDate": "2004-12-31T23:40:00Z"
+              },
+              {
+                "processingDescription": "Sampling of the blabla",
+              }
+            ],
+            "dataProduction": {
+              "method": "Monitoring station located directly at the Grand Bief spring, upstream of the fish farm\nMeasurement type: automatic.",
+              "sensors": [
+                {
+                  "model": "SKS 1110",
+                  "manufacturer": "Skye Instruments",
+                  "serialNumber": "91662",
+                  "sensorType": "PYRANOMETERS",
+                  "activityPeriods": [
+                    {
+                      "dateBeg": "2004-12-31T23:40:00Z",
+                      "dateEnd": "2011-12-31T23:45:00Z"
+                    }
+                  ],
+                  "documents": [
+                    {
+                      "type": "Manual",
+                      "url": "http://hplus.ore.fr/documents/metadata/chromatographie_ionique.doc"
+                    }
+                  ],
+                  "calibration":"calibration sentence"
+                },
+                {
+                  "model": "SP-Lite2",
+                  "manufacturer": "Kipp & Zonen",
+                  "serialNumber": "91662",
+                  "sensorType": "PYRANOMETERS",
+                  "activityPeriods": [
+                    {
+                      "dateBeg": "2011-12-31T23:45:00Z",
+                      "dateEnd": "2015-12-31T23:45:00Z"
+                    }
+                  ],
+                  "documents": [
+                    {
+                      "type": "Manual",
+                      "url": "http://hplus.ore.fr/documents/metadata/chromatographie_ionique.doc"
+                    }
+                  ],
+                  "calibration":"calibration sentence"
+                }
+              ]
+            }
+          },
+          "result": {
+            "missingValue": "-9999.9",
+            "qualityFlags": [
+              {
+                "code": "13",
+                "description": "checked data"
+              },
+              {
+                "code": "11",
+                "description": "missing value"
+              },
+              {
+                "code": "17",
+                "description": "dry river"
+              }
+            ],
+            "additionalValues": [
+              {
+                "name": "delta",
+                "columnName": "delta"
+              }
+            ],
+            "dataFile": {
+              "name": "HPLU_OBS_ploemeur_chemistry_1.txt"
+            }
+          },
+          "timeSerie": true,
+          "temporalExtent": {
+            "dateBeg": "1970-01-01T00:00:00Z",
+            "dateEnd": "1996-06-26T00:00:00Z"
+          },
+          "dataType": "Numeric"
+        }
+      ]
+    }
+  ]
+}
